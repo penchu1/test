@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Books Check In Form</title>
+<style type="text/css">
+.mainBlock{
+	width: 500px;
+	margin:100px auto;
+	border:2px solid #eee;
+	background:#ddd;
+	border-radius:10px;
+	text-align: center;
+	padding-bottom: 25px;
+	
+}
+input{
+	width:60%;
+	size:10px;
+	padding:15px;
+	margin:1px;
+	border: 1px solid #ccc;
+	border-radius:10px;
+	align:center;
+	font-size:20px;
+}
+button{
+	background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 17%;
+    border-radius: 4px;
+}
+p{
+	font-size: 40px;
+}
+</style>
+</head>
+<body>
+	<div class="mainBlock">
+		<form action="" name="registrationform">
+			<div class="containerBlock">
+				<p>Book Check In</p>
+				<input type="text" placeholder="ISBN*" name="isbn" required><br><br><br>
+				<input type="text" placeholder="Title*" name="title" required><br><br><br>
+				<input type="text" placeholder="Publisher*" name="publisher" required><br><br><br>
+				<input type="text" placeholder="Quantity" name="quantity" required><br><br>
+				<input type="text" placeholder="Price" name="price" required><br><br>
+				<input type="text" placeholder="Binding" name="binding" required><br><br>
+				<input type="text" placeholder="Bin location" name="binlocation" required><br><br>
+				<input type="text" placeholder="Spot" name="spot" required><br><br>
+				<input type="text" placeholder="Reading level" name="readinglevel" required><br><br>
+				<button type="cancel">Cancel</button>&emsp;&emsp;
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+		
+	</div>
+</body>
+</html>
